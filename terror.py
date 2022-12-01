@@ -91,7 +91,7 @@ def create_app_ui():
     
     main_layout = html.Div(
     [    
-    html.H1(id='Main_title', children='Terrorism Analysis with Insights'),
+    html.H1(id='Main_title', children='Terrorism Analysis Tool'),
     html.Hr(),
     dcc.Tabs(id="Tabs", value="Map",children=[
         dcc.Tab(label="Map tool" ,id="Map-tool",value="Map", children=[
