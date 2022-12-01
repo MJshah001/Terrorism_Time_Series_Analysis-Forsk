@@ -9,7 +9,6 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 
-
 app = dash.Dash()
 app.title = 'Terrorism Data Analysis'
 
